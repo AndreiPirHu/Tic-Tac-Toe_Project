@@ -16,6 +16,7 @@
 		75467AB829392DCE00486AE1 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75467AB729392DCE00486AE1 /* Tic_Tac_ToeTests.swift */; };
 		75467AC229392DCE00486AE1 /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75467AC129392DCE00486AE1 /* Tic_Tac_ToeUITests.swift */; };
 		75467AC429392DCE00486AE1 /* Tic_Tac_ToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75467AC329392DCE00486AE1 /* Tic_Tac_ToeUITestsLaunchTests.swift */; };
+		75467AD1293FF38D00486AE1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75467AD0293FF38D00486AE1 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		75467ABD29392DCE00486AE1 /* Tic-Tac-ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic-Tac-ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75467AC129392DCE00486AE1 /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		75467AC329392DCE00486AE1 /* Tic_Tac_ToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75467AD0293FF38D00486AE1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				75467AA029392DC400486AE1 /* AppDelegate.swift */,
 				75467AA229392DC400486AE1 /* SceneDelegate.swift */,
 				75467AA429392DC400486AE1 /* ViewController.swift */,
+				75467AD0293FF38D00486AE1 /* StartViewController.swift */,
 				75467AA629392DC400486AE1 /* Main.storyboard */,
 				75467AA929392DCD00486AE1 /* Assets.xcassets */,
 				75467AAB29392DCD00486AE1 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75467AA529392DC400486AE1 /* ViewController.swift in Sources */,
+				75467AD1293FF38D00486AE1 /* StartViewController.swift in Sources */,
 				75467AA129392DC400486AE1 /* AppDelegate.swift in Sources */,
 				75467AA329392DC400486AE1 /* SceneDelegate.swift in Sources */,
 			);
