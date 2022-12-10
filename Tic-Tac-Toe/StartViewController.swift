@@ -34,8 +34,16 @@ class StartViewController: UIViewController {
         if segue.identifier == segueToGameStart{
             if let destinationVC = segue.destination as? ViewController{
                 
-                destinationVC.playerX = player1NameTextField.text ?? "Player 1"
-                destinationVC.playerO = player2NameTextField.text ?? "Player 2"
+                if player1NameTextField.text == ""{
+                    player1NameTextField.text = "Player X"
+                }
+                
+                if player2NameTextField.text == ""{
+                    player2NameTextField.text = "Player O"
+                }
+                
+                destinationVC.playerX = player1NameTextField.text ?? "Player X"
+                destinationVC.playerO = player2NameTextField.text ?? "Player O"
             }
         }
     }
