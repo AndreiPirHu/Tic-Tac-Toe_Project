@@ -207,7 +207,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="D77-dQ-fVm"/>
                     <connections>
+                        <outlet property="playerOScoreLabel" destination="Kad-vk-whl" id="dWy-bS-21Q"/>
+                        <outlet property="playerOScoreNameLabel" destination="bEZ-aV-zJk" id="eJD-LN-M8Y"/>
                         <outlet property="playerTurnLabel" destination="YIp-JC-Uvv" id="XYz-Kj-Zsx"/>
+                        <outlet property="playerXScoreLabel" destination="763-dj-SRC" id="Pii-00-Y4e"/>
+                        <outlet property="playerXScoreNameLabel" destination="2L9-wB-deC" id="VAX-oC-cPv"/>
                         <segue destination="wqb-ty-Y1n" kind="presentation" identifier="SegueToWinScreen" modalPresentationStyle="fullScreen" id="7Md-8U-K4I"/>
                     </connections>
                 </viewController>
@@ -288,6 +292,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="playerOScoreLabel" destination="ySd-PN-qVh" id="UuV-gP-W96"/>
+                        <outlet property="playerOScoreNameLabel" destination="DJi-So-7jY" id="LLP-FQ-S8T"/>
+                        <outlet property="playerXScoreLabel" destination="k52-hj-49o" id="ZUq-ZD-zc1"/>
+                        <outlet property="playerXScoreNameLabel" destination="1Gl-zB-S5Q" id="70m-Wk-zpx"/>
                         <outlet property="winnerNameLabel" destination="SNA-J1-2hZ" id="Ful-Cm-Pta"/>
                     </connections>
                 </viewController>
