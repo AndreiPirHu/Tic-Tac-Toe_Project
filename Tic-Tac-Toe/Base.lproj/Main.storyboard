@@ -45,11 +45,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Play against Computer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvw-oj-z5n">
+                                <rect key="frame" x="110" y="623" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="S6c-65-b4r">
+                                <rect key="frame" x="173" y="660" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="omX-tk-gWe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="ComputerOpponentActivator" destination="S6c-65-b4r" id="d5S-oz-MyY"/>
                         <outlet property="player1NameTextField" destination="HWk-Ad-3Vr" id="XaT-d6-kdV"/>
                         <outlet property="player2NameTextField" destination="WJO-Av-Rhm" id="7Jn-NY-Poh"/>
                     </connections>
@@ -212,6 +224,15 @@
                         <outlet property="playerTurnLabel" destination="YIp-JC-Uvv" id="XYz-Kj-Zsx"/>
                         <outlet property="playerXScoreLabel" destination="763-dj-SRC" id="Pii-00-Y4e"/>
                         <outlet property="playerXScoreNameLabel" destination="2L9-wB-deC" id="VAX-oC-cPv"/>
+                        <outlet property="row1Square1ComputerButton" destination="pGY-Hv-o8w" id="mR1-uz-2yv"/>
+                        <outlet property="row1Square2ComputerButton" destination="ZBr-dk-4pE" id="Rbg-RF-TxK"/>
+                        <outlet property="row1Square3ComputerButton" destination="wSb-Lf-pDu" id="tCw-cM-4in"/>
+                        <outlet property="row2Square1ComputerButton" destination="1NS-3a-Nfc" id="EXh-6r-CTW"/>
+                        <outlet property="row2Square2ComputerButton" destination="RNa-z3-I3E" id="IX0-DV-Nbi"/>
+                        <outlet property="row2Square3ComputerButton" destination="EEi-mL-aFL" id="2Cv-ch-1qW"/>
+                        <outlet property="row3Square1ComputerButton" destination="FTb-ZW-KyI" id="N65-hT-NDv"/>
+                        <outlet property="row3Square2ComputerButton" destination="qkd-w7-elp" id="cw9-Oq-5yX"/>
+                        <outlet property="row3Square3ComputerButton" destination="cVr-Gx-xQP" id="mHu-cT-58U"/>
                         <segue destination="wqb-ty-Y1n" kind="presentation" identifier="SegueToWinScreen" modalPresentationStyle="fullScreen" id="7Md-8U-K4I"/>
                     </connections>
                 </viewController>
@@ -305,7 +326,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QIv-6y-bGv"/>
+        <segue reference="y1w-bV-UFe"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">

@@ -22,6 +22,8 @@ class WinScreenViewController: UIViewController {
     
     var segueToRematch = "SegueToRematch"
     
+    var computerIsActive = false
+    
     var winnerName : String?
     var playerX : String?
     var playerO : String?
@@ -45,6 +47,7 @@ class WinScreenViewController: UIViewController {
     }
     
 // Sends the player names and score back for a rematch
+    // checks if the computer was active and keeps it active
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == segueToRematch{
             if let destinationVC = segue.destination as? ViewController{
@@ -52,6 +55,7 @@ class WinScreenViewController: UIViewController {
                 destinationVC.playerO = playerO
                 destinationVC.playerXScore = playerXScore ?? 0
                 destinationVC.playerOScore = playerOScore ?? 0
+                destinationVC.computerIsActive = computerIsActive
             }
         }
     }
